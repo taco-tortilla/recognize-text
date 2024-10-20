@@ -1,4 +1,4 @@
-# OCR Web app
+# Recognize Text
 
 This is a simple web app that OCR.<br>
 
