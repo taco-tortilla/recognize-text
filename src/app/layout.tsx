@@ -1,5 +1,8 @@
+import { Title } from '@/components/Title';
+
 import type { Metadata } from 'next';
-import './globals.css';
+
+import '../styles/globals.css';
 
 export const metadata: Metadata = {
   title: 'web ocr',
@@ -13,7 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body>{children}</body>
+      <body suppressHydrationWarning className='my-10'>
+        <Title />
+        <div className='content'>{children}</div>
+      </body>
     </html>
   );
 }
