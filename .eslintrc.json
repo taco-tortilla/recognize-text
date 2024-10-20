@@ -16,6 +16,7 @@
     "tailwindcss/classnames-order": "error",
     "unused-imports/no-unused-imports": "error",
     "import/newline-after-import": "error",
+    "@next/next/no-img-element": "off",
     "import/order": [
       "error",
       {
