@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #eee9e6;
+    --foreground: #302c28;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+  width: 100%;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .content {
+    max-width: 600px; /* タブレット以上の画面サイズでは800pxに制限 */
+  }
+}
+
+@media (min-width: 1024px) {
+  .content {
+    max-width: 800px; /* タブレット以上の画面サイズでは800pxに制限 */
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
