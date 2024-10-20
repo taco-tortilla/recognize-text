@@ -1,4 +1,11 @@
 # OCR Web app
 
-This is a simple web app that OCR.
-I made this as a trial for use as a function of other apps.
+This is a simple web app that OCR.<br>
+
+The following are used.
+
+- [tessearct.js](https://github.com/naptha/tesseract.js#tesseractjs)
+
+## Demo
+
+![](doc/demo.gif)
