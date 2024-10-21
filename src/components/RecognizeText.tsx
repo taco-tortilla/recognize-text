@@ -33,7 +33,7 @@ export function RecognizeText({ image }: Props) {
       <h1 className='mb-2 text-lg font-semibold text-gray-500'>
         Recognition Results
       </h1>
-      <div className='h-96 w-full  rounded-lg border-2 border-solid border-indigo-300 p-5'>
+      <div className='h-96 w-full  overflow-auto rounded-lg border-2 border-solid border-indigo-300 p-5'>
         {recognitionResults()}
       </div>
     </div>
