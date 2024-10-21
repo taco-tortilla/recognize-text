@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 import '../styles/globals.css';
 
 export const metadata: Metadata = {
-  title: 'web ocr',
+  title: 'Recognize Text',
   description: 'OCR web app',
 };
 
